@@ -3,6 +3,6 @@ server:
   docroot: web
 
 @staging:
-  ssh: forge@142.93.92.99:/home/forge/employmentvegas.neonhosting.net/web
+  ssh: forge@142.93.92.99:/home/forge/staging.employment.vegas/web
 @production:
   ssh: forge@192.241.203.205:/home/forge/employment.vegas/web
