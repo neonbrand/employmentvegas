@@ -1,0 +1,8 @@
+path: web/wp
+server:
+  docroot: web
+
+@staging:
+  ssh: forge@123.456.789.10:/home/forge/staging.neonhosting.net/web
+@production:
+  ssh: forge@987.654.432.10:/home/forge/www.production.url/web

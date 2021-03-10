@@ -1,0 +1,33 @@
+# top level keys are the environment
+development:
+  disable:
+    - wp-rocket/wp-rocket.php
+    - wp-time-capsule/wp-time-capsule.php
+    - google-analytics-premium/googleanalytics-premium.php
+    - mainwp-child/mainwp-child.php
+    - ithemes-security-pro/ithemes-security-pro.php
+    - kraken-image-optimizer/kraken.php
+    - pixel-caffeine/pixel-caffeine.php
+  enable:
+    - better-search-replace/better-search-replace.php
+    - yoast-test-helper/yoast-test-helper.php
+staging:
+  disable:
+    - what-template-file-am-i-viewing/what-template-file-am-i-viewing.php
+    - better-search-replace/better-search-replace.php
+    - google-analytics-premium/googleanalytics-premium.php
+    - wp-rocket/wp-rocket.php
+    - mainwp-child/mainwp-child.php
+    - ithemes-security-pro/ithemes-security-pro.php
+    - pixel-caffeine/pixel-caffeine.php
+  enable:
+    - yoast-test-helper/yoast-test-helper.php
+
+production:
+  disable:
+    - what-template-file-am-i-viewing/what-template-file-am-i-viewing.php
+    - better-search-replace/better-search-replace.php
+  enable:
+    - wp-time-capsule/wp-time-capsule.php
+
+# 'global' is a special key that you can use to apply to all environments
