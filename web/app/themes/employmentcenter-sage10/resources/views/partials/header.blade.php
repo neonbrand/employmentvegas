@@ -5,9 +5,6 @@
       {!! wp_get_attachment_image( $siteLogo, array(400,100), "", array('class'=>'logo object-scale-down py-2')) !!}
     </a>
     <div class="flex md:col-span-2 justify-center md:justify-end py-2">
-      <div class="">
-        {{ do_action('wpml_add_language_selector') }}
-      </div>
       <div class="ml-2">
         <a href="{{ get_permalink( '5123' ) }}" class="bg-secondary-500 inline-flex items-center p-4 h-10 w-auto text-white"><?php _e('Find a Meeting', 'sage'); ?></a>
       </div>
