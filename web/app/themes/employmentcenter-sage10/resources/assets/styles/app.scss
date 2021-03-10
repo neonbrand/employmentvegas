@@ -1,0 +1,114 @@
+@import "~animate.css";
+
+/**
+ * This injects Tailwind's base styles, which is a combination of
+ * Normalize.css and some additional base styles.
+ *
+ * You can see the styles here:
+ * https://github.com/tailwindcss/tailwindcss/blob/master/css/preflight.css
+ *
+ * If using `postcss-import`, use this import instead:
+ *
+ * @import "tailwindcss/preflight";
+ */
+ @tailwind base;
+
+/**
+ * This injects any component classes registered by plugins.
+ *
+ * If using `postcss-import`, use this import instead:
+ *
+ * @import "tailwindcss/components";
+ */
+ @tailwind components;
+ @import "components/tailwind";
+ @import "components/neon-normalize";
+
+/**
+ * Here you would add any of your custom component classes; stuff that you'd
+ * want loaded *before* the utilities so that the utilities could still
+ * override them.
+ *
+ * Example:
+ *
+ * .btn { ... }
+ * .form-input { ... }
+ *
+ * Or if using a preprocessor or `postcss-import`:
+ *
+ * @import "components/buttons";
+ * @import "components/forms";
+ */
+ @import "components/wordpress";
+ @import "components/gravityforms";
+/**
+ * This injects all of Tailwind's utility classes, generated based on your
+ * config file.
+ *
+ * If using `postcss-import`, use this import instead:
+ *
+ * @import "tailwindcss/utilities";
+ */
+ @tailwind utilities;
+
+/**
+ * Here you would add any custom utilities you need that don't come out of the
+ * box with Tailwind.
+ *
+ * Example :
+ *
+ * .bg-pattern-graph-paper { ... }
+ * .skew-45 { ... }
+ *
+ * Or if using a preprocessor or `postcss-import`:
+ *
+ * @import "utilities/background-patterns";
+ * @import "utilities/skew-transforms";
+ */
+ /* latin */
+/*
+ Get font faces from https://fonts.googleapis.com/css?family=Open+Sans
+ Replace url with local font exampe:
+ src: url("../fonts/Montserrat-Medium.ttf");
+ */
+
+ [v-cloak] {
+  display: none;
+}
+
+@import "./components/wordpress";
+
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@400;600&family=Poppins:wght@100;300;500;700&display=swap');
+
+a {
+    @apply text-primary-500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    @apply text-secondary-600;
+}
+
+body {
+    @apply font-sans font-light;
+}
+
+#em-wrapper {
+    @apply max-w-screen-md;
+    .events-table {
+        @apply table-auto;
+        thead tr th {
+            @apply px-6 py-3 border-b-2 border-gray-300 text-left leading-4 text-secondary-500 tracking-wider #{!important};
+        }
+        tbody tr td {
+            @apply px-6 py-4 whitespace-no-wrap border-b border-gray-500 #{!important};
+        }
+    }
+}
+
+.footer_menu {
+    a {
+        @apply text-white;
+    }
+}

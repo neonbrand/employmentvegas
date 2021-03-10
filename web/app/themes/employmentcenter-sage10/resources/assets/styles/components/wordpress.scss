@@ -1,0 +1,152 @@
+main.main, main.main .entry-content {
+  ol {
+    list-style: decimal inside;
+  }
+
+  ul {
+    list-style: disc inside;
+  }
+
+  > article, > p, > h1, > h2, > h3, > h4, > h5, > h6, > ol, > ul {
+    @apply .px-4;
+  }
+
+  > [class^="wp-block-"], > article, > p, > h1, > h2, > h3, > h4, > h5, > h6, > ol, > ul {
+    @apply .mb-4;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    &:last-child {
+      @apply .mb-0;
+    }
+
+    &:not(.alignfull) {
+      @media (min-width: theme('screens.sm')) { max-width: theme('screens.sm'); }
+      @media (min-width: theme('screens.md')) { max-width: theme('screens.md'); }
+      @media (min-width: theme('screens.lg')) { max-width: theme('screens.lg'); }
+      @media (min-width: theme('screens.xl')) { max-width: theme('screens.lg'); }
+    }
+
+    &.alignwide {
+      @media (min-width: theme('screens.xl')) {
+        max-width: calc(theme('screens.xl') + (theme('screens.xl') - theme('screens.lg')));
+      }
+    }
+  }
+}
+
+h1 {
+  @apply text-2xl pb-0;
+  @screen lg {
+    @apply text-3xl pb-0;
+  }
+}
+
+h2 {
+  @apply text-xl pb-0;
+  @screen lg {
+    @apply text-2xl pb-0;
+  }
+}
+
+h3 {
+  @apply text-lg pb-0;
+  @screen lg {
+    @apply text-xl pb-0;
+  }
+}
+
+h4 {
+  @apply text-base pb-0;
+  @screen lg {
+    @apply text-lg pb-0;
+  }
+}
+
+h5 {
+  @apply text-base pb-0;
+  @screen lg {
+    @apply text-lg pb-0;
+  }
+}
+
+h6 {
+  @apply text-base pb-0;
+  @screen lg {
+    @apply text-lg pb-0;
+  }
+}
+
+@each $name, $color in $colors {
+
+  .has-#{$name}-color {
+    color: $color;
+  }
+  .wp-block-cover.has-#{$name}-color {
+    color: $color;
+  }
+
+  .wp-block-cover.has-#{$name}-background-color, .has-#{$name}-background-color {
+    background-color: $color;
+  }
+
+}
+.has-theme-primary-color.has-text-color {
+  @apply text-primary-500 #{!important};
+}
+.has-theme-primary-background-color {
+  @apply bg-primary-500 #{!important};
+  h2 {
+    @apply text-white;
+  }
+}
+
+@each $name, $font-size in $fontSize {
+  .has-#{$name}-font-size {
+    font-size: $font-size;
+  }
+}
+
+.has-text-align-right { text-align: right; }
+.has-text-align-center { text-align: center; }
+.has-text-align-left { text-align: left; }
+
+.is-style-offset-up {
+  margin-top: -10rem;
+  @media (max-width: theme('screens.md')) {
+    margin-top: 0;
+  }
+}
+
+.wp-block-columns, .wp-block-group, .wp-block-genesis-blocks-gb-columns {
+  &:not(.alignfull) {
+    @media (max-width: theme('screens.md')) {
+      @apply px-4;
+    }
+  }
+}
+
+#menu-footer-menu-english {
+  li {
+    @apply ml-0;
+  }
+}
+
+.em-pagination {
+  @apply -mt-px flex;
+  strong {
+    @apply border-secondary-500 text-primary-500 border-t-2 pt-4 px-4 inline-flex items-center text-sm font-medium;
+  }
+  .current {
+    &:hover {
+      @apply text-primary-700 border-primary-300;
+    }
+  }
+  a {
+    @apply border-transparent text-primary-500 border-t-2 pt-4 px-4 inline-flex items-center text-sm font-medium;
+    &:hover {
+      @apply text-primary-700 border-primary-300;
+    }
+  }
+}

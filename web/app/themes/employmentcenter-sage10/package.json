@@ -1,0 +1,61 @@
+{
+  "private": true,
+  "browserslist": [
+    "extends @wordpress/browserslist-config"
+  ],
+  "scripts": {
+    "build": "cross-env NODE_ENV=development run-s export-tailwind-config mix",
+    "build:production": "cross-env NODE_ENV=production run-s clean mix",
+    "start": "cross-env NODE_ENV=development run-s export-tailwind-config \"mix -- --watch\"",
+    "hot": "cross-env NODE_ENV=development run-s build mix:hot",
+    "mix": "webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "mix:hot": "webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "clean": "run-p clean:*",
+    "clean:dist": "rimraf dist",
+    "clean:cache": "rimraf storage/framework/cache/*.php storage/framework/cache/data/*.php",
+    "clean:views": "rimraf storage/framework/views/*.php",
+    "lint": "run-s -c lint:*",
+    "lint:scripts": "eslint resources/assets/scripts",
+    "lint:styles": "stylelint \"resources/assets/**/*.{vue,css,sass,scss,less}\"",
+    "test": "run-s -c lint",
+    "translate": "run-s -c translate:*",
+    "translate:pot": "wp i18n make-pot . ./resources/languages/sage.pot --ignore-domain --include=\"app,resources/assets,resources/views\"",
+    "translate:js": "wp i18n make-json ./resources/languages --no-purge --pretty-print",
+    "export-tailwind-config": "tailwindcss-export-config --config=./tailwind.config.js --destination=resources/assets/styles/components/tailwind --format=scss"
+  },
+  "devDependencies": {
+    "@tinypixelco/laravel-mix-wp-blocks": "^1.0.0",
+    "@wordpress/babel-preset-default": "^4.12.1",
+    "@wordpress/browserslist-config": "^2.6.0",
+    "@wordpress/dependency-extraction-webpack-plugin": "^2.5.0",
+    "animate.css": "^4.1.1",
+    "axios": "^0.20.0",
+    "babel-eslint": "^10.1.0",
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.0.1",
+    "cross-env": "^7.0.2",
+    "laravel-mix": "^5.0.4",
+    "laravel-mix-copy-watched": "^2.2.4",
+    "laravel-mix-purgecss": "^5.0.0-rc.1",
+    "laravel-mix-tailwind": "^0.1.1",
+    "laravel-mix-tailwind-extract": "^0.0.4",
+    "lodash": "^4.17.20",
+    "npm-run-all": "^4.1",
+    "postcss-import": "^12.0.1",
+    "postcss-nesting": "^7.0.1",
+    "purgecss-with-wordpress": "^2.1.0",
+    "rimraf": "^3.0.2",
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2",
+    "tailwindcss-responsive-embed": "^1.0.0",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "dependencies": {
+    "alpinejs": "^2.7.0",
+    "jquery": "^3.5.0",
+    "popper.js": "^1.16.1",
+    "tailwindcss": "^1.9.1",
+    "tailwindcss-export-config": "tylerwiegand/tailwindcss-export-config",
+    "vue": "^2.6.12"
+  }
+}

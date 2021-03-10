@@ -1,0 +1,129 @@
+// different colors for different areas
+.gform_wrapper {
+  @apply pb-4 mt-0;
+}
+.search-form,
+.gform_wrapper {
+
+  h3.gform_title {
+    @apply text-gray-500 text-center font-light uppercase;
+  }
+  ul.gform_fields {
+    @apply flex flex-wrap;
+
+    > li.gfield {
+      @apply pb-4 mt-0 flex flex-col;
+
+      &:not(.w-1\/2) {
+        @apply w-full;
+      }
+      &.hidden_label input {
+        @apply mt-0;
+      }
+
+      .gfield_checkbox,
+      .gfield_radio {
+        @apply leading-tight grid grid-cols-1;
+        @media (min-width: theme('screens.sm')) {
+          @apply grid-cols-2;
+        }
+        input {
+          @apply mt-0;
+        }
+      }
+      .field_sublabel_above.field_description_below+li.gfield {
+        margin-top: 0;
+      }
+      .ginput_container {
+        @apply mt-0;
+      }
+    }
+  }
+
+  input, select, textarea {
+    @apply border border-gray-400 py-4 px-5 mt-0 rounded;
+    color: #000;
+    padding: 17px 15px !important;
+  }
+
+  select {
+    @apply block appearance-none bg-white text-gray-900 leading-tight;
+  }
+
+  .gform_footer {
+    @apply flex justify-center mt-0 -mb-8;
+  }
+
+  input[type="submit"],
+  button[type="submit"],
+  button.gpnf-add-entry {
+    @apply bg-primary-500 uppercase text-2xl text-white font-bold py-2 px-10 cursor-pointer font-light text-lg min-w-48 rounded-none shadow-md;
+    transition: all .5 ease;
+    &:hover {
+      @apply bg-primary-600;
+    }
+
+    &:focus {
+      @apply outline-none shadow-outline;
+    }
+  }
+  .gform_save_link {
+    @apply text-2xl font-bold py-4 px-10 cursor-pointer font-light text-lg;
+  }
+}
+
+.ginput_counter {
+  display: none;
+}
+
+.simple-contact-form_wrapper {
+  @apply bg-gray-100 rounded-lg border border-gray-400;
+  .simple-contact-form {
+    @apply px-2;
+
+    @media (min-width: theme('screens.md')) {
+      @apply px-8;
+    }
+    .gform_title {
+      @extend h3;
+      @apply text-gray-500 text-center uppercase font-thin;
+    }
+    .gform_description {
+      @apply text-center uppercase text-gray-900;
+    }
+  }
+}
+
+footer .widget {
+  .gform_wrapper {
+    li.gfield {
+      @apply pb-2;
+    }
+
+    .gform_footer {
+      @apply py-0;
+    }
+
+    input, select, textarea {
+      @apply text-white bg-primary-900 border border-primary-400 appearance-none py-4 px-5 mt-0 rounded-none;
+      padding: 12px 10px !important;
+    }
+
+    input[type="submit"] {
+      @apply bg-gray-600 border-0 p-0 text-lg text-black uppercase rounded-none;
+      width: 100% !important;
+    }
+  }
+}
+
+#gform_wrapper_15 {
+  .gform_footer {
+    @apply justify-start uppercase;
+  }
+}
+
+@media (max-width: theme('screens.md')) {
+  #search-form button[type=submit] {
+    min-width: 2rem !important;
+  }
+}
