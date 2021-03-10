@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "df28507c9bff96be379d920ca8314ca4",
+    "content-hash": "1f38b89d20bd90b53bc8f8fb1cc0f61a",
     "packages": [
         {
             "name": "composer/installers",
@@ -515,6 +515,25 @@
             },
             "description": "The best WordPress search you can find",
             "homepage": "https://searchwp.com/"
+        },
+        {
+            "name": "neonbrand/seedprod-coming-soon-pro-5",
+            "version": "5.12.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://mainwp.neonbrand.com/satispress/seedprod-coming-soon-pro-5/5.12.8",
+                "shasum": "8d7ccea25f1abe2eab4faa48b7ecff5818c26457"
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "SeedProd",
+                "homepage": "http://www.seedprod.com"
+            },
+            "description": "The Ultimate Coming Soon & Maintenance Mode Plugin",
+            "homepage": "https://www.seedprod.com"
         },
         {
             "name": "neonbrand/wordpress-seo-premium",
