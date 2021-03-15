@@ -84,7 +84,8 @@
         "neonbrand/searchwp": "^4.1",
         "neonbrand/advanced-custom-fields-pro": "^5.9",
         "neonbrand/wpseo-local": "^13.8",
-        "neonbrand/seedprod-coming-soon-pro-5": "^5.12"
+        "neonbrand/seedprod-coming-soon-pro-5": "^5.12",
+        "wpackagist-plugin/genesis-blocks": "^1.2"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.5.8",
