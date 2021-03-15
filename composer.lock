@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cb4479f5e7c644ca67661abeab9bb99d",
+    "content-hash": "9c26df764410e20ccdfc6192e578fa5c",
     "packages": [
         {
             "name": "composer/installers",
@@ -438,6 +438,25 @@
             },
             "description": "Adds individual page insights directly in the WordPress admin.",
             "homepage": "https://www.monsterinsights.com"
+        },
+        {
+            "name": "neonbrand/nextend-smart-slider3-pro",
+            "version": "3.4.1.16",
+            "dist": {
+                "type": "zip",
+                "url": "https://mainwp.neonbrand.com/satispress/nextend-smart-slider3-pro/3.4.1.16",
+                "shasum": "2bd96396c744a648174e30393d88fecb9951eace"
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Nextend",
+                "homepage": "https://smartslider3.com"
+            },
+            "description": "The perfect all-in-one responsive slider solution for WordPress.",
+            "homepage": "https://smartslider3.com/"
         },
         {
             "name": "neonbrand/searchwp",
@@ -1565,6 +1584,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/simple-sitemap/"
+        },
+        {
+            "name": "wpackagist-plugin/smart-slider-3",
+            "version": "3.4.1.17",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/smart-slider-3/",
+                "reference": "tags/3.4.1.17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/smart-slider-3.3.4.1.17.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/smart-slider-3/"
         },
         {
             "name": "wpackagist-plugin/wp-term-order",
