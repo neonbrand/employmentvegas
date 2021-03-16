@@ -127,9 +127,10 @@ h6 {
   }
 }
 
-#menu-footer-menu-english {
+#menu-footer {
+  @apply pl-0 text-center list-none block #{!important};
   li {
-    @apply ml-0;
+    @apply inline px-4 ml-0;
   }
 }
 
