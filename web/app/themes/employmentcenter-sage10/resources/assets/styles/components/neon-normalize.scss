@@ -28,6 +28,19 @@ main.main{
   ul {
     list-style-type: disc;
   }
+
+  p:not(.form-row),
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  ol,
+  ul:not(.wc-block-grid__products, .gform_fields, .page-numbers),
+  .wp-block-buttons,
+  .gform_confirmation_wrapper  {
+    @apply max-w-3xl mx-auto #{!important};
+  }
 }
 
 [class*="__inner-container"]
@@ -158,19 +171,6 @@ table {
   @media (min-width: theme("screens.xl")) {
     max-width: theme("screens.xl");
   }
-}
-
-p:not(.form-row),
-h2,
-h3,
-h4,
-h5,
-h6,
-ol,
-ul:not(.wc-block-grid__products, .gform_fields, .page-numbers),
-.wp-block-buttons,
-.gform_confirmation_wrapper  {
-    @apply max-w-3xl mx-auto #{!important};
 }
 
 figure {
