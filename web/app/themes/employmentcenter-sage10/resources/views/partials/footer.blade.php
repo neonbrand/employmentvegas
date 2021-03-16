@@ -3,10 +3,10 @@
         @php(dynamic_sidebar('sidebar-footer'))
         {{ wp_nav_menu(array('menu' => 'footer_navigation', 'menu_class' => 'block md:flex text-center md:flex justify-center md:justify-evenly space-x-10', 'container_class' => 'footer_menu')) }}
         <div class="text-center">
-            &copy; {{ date('Y') }} <a class=" href="{{ get_bloginfo('url') }}">{{ get_bloginfo('sitename') }}</a>. <?php _e('All rights reserved.', 'sage'); ?>
+            &copy; {{ date('Y') }} <a class="" href="{{ get_bloginfo('url') }}">{{ get_bloginfo('sitename') }}</a>. <?php _e('All rights reserved.', 'sage'); ?>
         </div>
         <div class="text-center">
-            <a class=" href="https://www.churchofjesuschrist.org/" target="_blank"><?php _e('Sponsored by The Church of Jesus Christ of Latter-Day Saints.', 'sage') ?></a>
+            <a class="" href="https://www.churchofjesuschrist.org/" target="_blank"><?php _e('Sponsored by The Church of Jesus Christ of Latter-Day Saints.', 'sage') ?></a>
         </div>
         <div class="text-center py-4">
             <a href="https://neonbrand.com/services/website-design-company/" target="_blank" class="text-secondary-300 hover inline-block" title="Las Vegas Website Developers">
