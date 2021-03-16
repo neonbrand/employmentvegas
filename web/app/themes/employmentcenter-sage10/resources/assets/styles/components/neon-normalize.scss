@@ -170,7 +170,7 @@ ol,
 ul:not(.wc-block-grid__products, .gform_fields, .page-numbers),
 .wp-block-buttons,
 .gform_confirmation_wrapper  {
-    @apply max-w-3xl;
+    @apply max-w-3xl mx-auto #{!important};
 }
 
 figure {
