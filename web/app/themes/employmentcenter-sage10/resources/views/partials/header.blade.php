@@ -6,7 +6,7 @@
     </a>
     <div class="flex md:col-span-2 justify-center md:justify-end py-2">
       <div class="ml-2">
-        <a href="{{ get_permalink( '29' ) }}" class="bg-secondary-500 inline-flex items-center p-4 h-10 w-auto text-white"><?php _e('Attend a Meeting', 'sage'); ?></a>
+        <a href="{{ get_permalink( '9' ) }}" class="bg-secondary-500 inline-flex items-center p-4 h-10 w-auto text-white"><?php _e('Attend a Meeting', 'sage'); ?></a>
       </div>
 {{--       <div class="ml-2">
         <a href="https://www.facebook.com/centrohispanolv/" target="blank">@svg('images.facebook')</a>
