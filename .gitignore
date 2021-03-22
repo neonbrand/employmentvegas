@@ -26,6 +26,8 @@ wp-cli.local.yml
 # Mac
 .DS_Store
 .idea
-/*.sql
+*.sql
 /report.*.json
-
+web/app/advanced-cache.php
+web/nginx.conf
+web/app/wp-rocket-config/
