@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c26df764410e20ccdfc6192e578fa5c",
+    "content-hash": "eadd8740fa67f58cb08f2a5e444c2b93",
     "packages": [
         {
             "name": "composer/installers",
@@ -365,11 +365,11 @@
         },
         {
             "name": "neonbrand/media-file-renamer-pro",
-            "version": "5.1.7",
+            "version": "5.1.8",
             "dist": {
                 "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/media-file-renamer-pro/5.1.7",
-                "shasum": "192297aa3b18129846c52528c74800acc3e9fc30"
+                "url": "https://mainwp.neonbrand.com/satispress/media-file-renamer-pro/5.1.8",
+                "shasum": "8898b073b90c6cf4e8ece02988a5387b7914feb7"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -459,50 +459,12 @@
             "homepage": "https://smartslider3.com/"
         },
         {
-            "name": "neonbrand/searchwp",
-            "version": "4.1.12",
-            "dist": {
-                "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/searchwp/4.1.12",
-                "shasum": "183b0ed332c64a27742e5fdb4f9338c4627f799e"
-            },
-            "require": {
-                "composer/installers": "^1.0"
-            },
-            "type": "wordpress-plugin",
-            "authors": {
-                "name": "SearchWP",
-                "homepage": "https://searchwp.com/"
-            },
-            "description": "The best WordPress search you can find",
-            "homepage": "https://searchwp.com/"
-        },
-        {
-            "name": "neonbrand/seedprod-coming-soon-pro-5",
-            "version": "5.12.8",
-            "dist": {
-                "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/seedprod-coming-soon-pro-5/5.12.8",
-                "shasum": "8d7ccea25f1abe2eab4faa48b7ecff5818c26457"
-            },
-            "require": {
-                "composer/installers": "^1.0"
-            },
-            "type": "wordpress-plugin",
-            "authors": {
-                "name": "SeedProd",
-                "homepage": "http://www.seedprod.com"
-            },
-            "description": "The Ultimate Coming Soon & Maintenance Mode Plugin",
-            "homepage": "https://www.seedprod.com"
-        },
-        {
             "name": "neonbrand/wordpress-seo-premium",
-            "version": "15.9.1",
+            "version": "15.9.2",
             "dist": {
                 "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/wordpress-seo-premium/15.9.1",
-                "shasum": "fdc9798276e7c81e234393833b88efdc99713e42"
+                "url": "https://mainwp.neonbrand.com/satispress/wordpress-seo-premium/15.9.2",
+                "shasum": "cf5166d40c0477bcec9ceec07009f493b6ec6c26"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -517,11 +479,11 @@
         },
         {
             "name": "neonbrand/wp-rocket",
-            "version": "3.8.5",
+            "version": "3.8.7",
             "dist": {
                 "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/wp-rocket/3.8.5",
-                "shasum": "00954c8e3aba0f4300c026bf7d3d1639e56714b5"
+                "url": "https://mainwp.neonbrand.com/satispress/wp-rocket/3.8.7",
+                "shasum": "6b6a8f467cfbe018dbfc54e01cc9e30d72571c35"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -1425,15 +1387,15 @@
         },
         {
             "name": "wpackagist-plugin/genesis-blocks",
-            "version": "1.2.2",
+            "version": "1.2.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/genesis-blocks/",
-                "reference": "tags/1.2.2"
+                "reference": "tags/1.2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/genesis-blocks.1.2.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/genesis-blocks.1.2.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1461,15 +1423,15 @@
         },
         {
             "name": "wpackagist-plugin/mailgun",
-            "version": "1.7.6",
+            "version": "1.7.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/mailgun/",
-                "reference": "tags/1.7.6"
+                "reference": "tags/1.7.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailgun.1.7.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/mailgun.1.7.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1479,15 +1441,15 @@
         },
         {
             "name": "wpackagist-plugin/mainwp-child",
-            "version": "4.1.4",
+            "version": "4.1.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/mainwp-child/",
-                "reference": "tags/4.1.4"
+                "reference": "tags/4.1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mainwp-child.4.1.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/mainwp-child.4.1.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1496,22 +1458,22 @@
             "homepage": "https://wordpress.org/plugins/mainwp-child/"
         },
         {
-            "name": "wpackagist-plugin/pixel-caffeine",
-            "version": "2.3.1",
+            "name": "wpackagist-plugin/official-facebook-pixel",
+            "version": "3.0.5",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/pixel-caffeine/",
-                "reference": "tags/2.3.1"
+                "url": "https://plugins.svn.wordpress.org/official-facebook-pixel/",
+                "reference": "tags/3.0.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pixel-caffeine.2.3.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/official-facebook-pixel.3.0.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/pixel-caffeine/"
+            "homepage": "https://wordpress.org/plugins/official-facebook-pixel/"
         },
         {
             "name": "wpackagist-plugin/post-type-switcher",
@@ -1677,15 +1639,15 @@
         },
         {
             "name": "wpackagist-plugin/yoast-test-helper",
-            "version": "1.12",
+            "version": "1.13",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/yoast-test-helper/",
-                "reference": "tags/1.12"
+                "reference": "tags/1.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/yoast-test-helper.1.12.zip"
+                "url": "https://downloads.wordpress.org/plugin/yoast-test-helper.1.13.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1701,12 +1663,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "ba8a590c26ddca3e0011a055cae7fd5ec28dd5f5"
+                "reference": "11b8a607a59818bb21fc9ffb334f03032a6ce5dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/ba8a590c26ddca3e0011a055cae7fd5ec28dd5f5",
-                "reference": "ba8a590c26ddca3e0011a055cae7fd5ec28dd5f5",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/11b8a607a59818bb21fc9ffb334f03032a6ce5dc",
+                "reference": "11b8a607a59818bb21fc9ffb334f03032a6ce5dc",
                 "shasum": ""
             },
             "conflict": {
@@ -1765,9 +1727,10 @@
                 "ezsystems/ezplatform": ">=1.7,<1.7.9.1|>=1.13,<1.13.5.1|>=2.5,<2.5.4",
                 "ezsystems/ezplatform-admin-ui": ">=1.3,<1.3.5|>=1.4,<1.4.6",
                 "ezsystems/ezplatform-admin-ui-assets": ">=4,<4.2.1|>=5,<5.0.1|>=5.1,<5.1.1",
-                "ezsystems/ezplatform-kernel": ">=1,<1.0.2.1",
+                "ezsystems/ezplatform-kernel": "<=1.2.5|>=1.3,<=1.3.1",
+                "ezsystems/ezplatform-rest": ">=1.2,<=1.2.2|>=1.3,<=1.3.1",
                 "ezsystems/ezplatform-user": ">=1,<1.0.1",
-                "ezsystems/ezpublish-kernel": ">=5.3,<5.3.12.1|>=5.4,<5.4.14.2|>=6,<6.7.9.1|>=6.8,<6.13.6.3|>=7,<7.2.4.1|>=7.3,<7.3.2.1|>=7.5,<7.5.7.1",
+                "ezsystems/ezpublish-kernel": "<=6.13.8.1|>=7,<=7.5.15.1",
                 "ezsystems/ezpublish-legacy": ">=5.3,<5.3.12.6|>=5.4,<5.4.14.2|>=2011,<2017.12.7.3|>=2018.6,<2018.6.1.4|>=2018.9,<2018.9.1.3|>=2019.3,<2019.3.5.1",
                 "ezsystems/platform-ui-assets-bundle": ">=4.2,<4.2.3",
                 "ezsystems/repository-forms": ">=2.3,<2.3.2.1",
@@ -1795,6 +1758,7 @@
                 "illuminate/database": "<6.20.14|>=7,<7.30.4|>=8,<8.24",
                 "illuminate/encryption": ">=4,<=4.0.11|>=4.1,<=4.1.31|>=4.2,<=4.2.22|>=5,<=5.0.35|>=5.1,<=5.1.46|>=5.2,<=5.2.45|>=5.3,<=5.3.31|>=5.4,<=5.4.36|>=5.5,<5.5.40|>=5.6,<5.6.15",
                 "illuminate/view": ">=7,<7.1.2",
+                "impresscms/impresscms": "<=1.4.2",
                 "ivankristianto/phpwhois": "<=4.3",
                 "james-heinrich/getid3": "<1.9.9",
                 "joomla/archive": "<1.1.10",
@@ -1823,7 +1787,7 @@
                 "nette/nette": ">=2,<2.0.19|>=2.1,<2.1.13",
                 "nystudio107/craft-seomatic": "<3.3",
                 "nzo/url-encryptor-bundle": ">=4,<4.3.2|>=5,<5.0.1",
-                "october/backend": ">=1.0.319,<1.0.470",
+                "october/backend": "<1.1.2",
                 "october/cms": "= 1.0.469|>=1.0.319,<1.0.469",
                 "october/october": ">=1.0.319,<1.0.466",
                 "october/rain": "<1.0.472|>=1.1,<1.1.2",
@@ -1870,7 +1834,7 @@
                 "sensiolabs/connect": "<4.2.3",
                 "serluck/phpwhois": "<=4.2.6",
                 "shopware/core": "<=6.3.4",
-                "shopware/platform": "<=6.3.5",
+                "shopware/platform": "<=6.3.5.1",
                 "shopware/shopware": "<5.6.9",
                 "silverstripe/admin": ">=1.0.3,<1.0.4|>=1.1,<1.1.1",
                 "silverstripe/assets": ">=1,<1.4.7|>=1.5,<1.5.2",
@@ -1906,6 +1870,7 @@
                 "sylius/resource-bundle": "<1.3.14|>=1.4,<1.4.7|>=1.5,<1.5.2|>=1.6,<1.6.4",
                 "sylius/sylius": "<1.6.9|>=1.7,<1.7.9|>=1.8,<1.8.3",
                 "symbiote/silverstripe-multivaluefield": ">=3,<3.0.99",
+                "symbiote/silverstripe-queuedjobs": ">=3,<3.0.2|>=3.1,<3.1.4|>=4,<4.0.7|>=4.1,<4.1.2|>=4.2,<4.2.4|>=4.3,<4.3.3|>=4.4,<4.4.3|>=4.5,<4.5.1|>=4.6,<4.6.4",
                 "symbiote/silverstripe-versionedfiles": "<=2.0.3",
                 "symfony/cache": ">=3.1,<3.4.35|>=4,<4.2.12|>=4.3,<4.3.8",
                 "symfony/dependency-injection": ">=2,<2.0.17|>=2.7,<2.7.51|>=2.8,<2.8.50|>=3,<3.4.26|>=4,<4.1.12|>=4.2,<4.2.7",
@@ -1942,8 +1907,8 @@
                 "titon/framework": ">=0,<9.9.99",
                 "truckersmp/phpwhois": "<=4.3.1",
                 "twig/twig": "<1.38|>=2,<2.7",
-                "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.32|>=8,<8.7.38|>=9,<9.5.23|>=10,<10.4.10",
-                "typo3/cms-core": ">=8,<8.7.38|>=9,<9.5.23|>=10,<10.4.10",
+                "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.32|>=8,<8.7.38|>=9,<9.5.25|>=10,<10.4.14|>=11,<11.1.1",
+                "typo3/cms-core": ">=8,<8.7.38|>=9,<9.5.25|>=10,<10.4.14|>=11,<11.1.1",
                 "typo3/flow": ">=1,<1.0.4|>=1.1,<1.1.1|>=2,<2.0.1|>=2.3,<2.3.16|>=3,<3.0.10|>=3.1,<3.1.7|>=3.2,<3.2.7|>=3.3,<3.3.5",
                 "typo3/neos": ">=1.1,<1.1.3|>=1.2,<1.2.13|>=2,<2.0.4",
                 "typo3/phar-stream-wrapper": ">=1,<2.1.1|>=3,<3.1.1",
@@ -2022,7 +1987,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-08T17:27:54+00:00"
+            "time": "2021-03-19T20:02:32+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
