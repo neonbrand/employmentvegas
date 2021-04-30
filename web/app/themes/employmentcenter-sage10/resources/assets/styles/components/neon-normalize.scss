@@ -13,12 +13,7 @@ main.main > * {
 
   ol,
   ul {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 1em;
-    margin-inline-end: 0;
-    padding-inline-start: 40px;
+    @apply pl-5 mx-auto;
   }
 
   ol {
