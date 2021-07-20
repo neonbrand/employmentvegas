@@ -84,7 +84,7 @@
         "neonbrand/wpseo-local": "^13.8",
         "wpackagist-plugin/genesis-blocks": "^1.2",
         "wpackagist-plugin/smart-slider-3": "3.4.1.17",
-        "neonbrand/nextend-smart-slider3-pro": "3.4.1.16",
+        "neonbrand/nextend-smart-slider3-pro": "3.5.0.9",
         "wpackagist-plugin/official-facebook-pixel": "^3.0"
     },
     "require-dev": {

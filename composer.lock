@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eadd8740fa67f58cb08f2a5e444c2b93",
+    "content-hash": "7bfbabafea7b901e23ff7e3a739ff89d",
     "packages": [
         {
             "name": "composer/installers",
@@ -443,11 +443,11 @@
         },
         {
             "name": "neonbrand/nextend-smart-slider3-pro",
-            "version": "3.4.1.16",
+            "version": "3.5.0.9",
             "dist": {
                 "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/nextend-smart-slider3-pro/3.4.1.16",
-                "shasum": "2bd96396c744a648174e30393d88fecb9951eace"
+                "url": "https://mainwp.neonbrand.com/satispress/nextend-smart-slider3-pro/3.5.0.9",
+                "shasum": "9b3feb958a5a3216da536f12b696fc394e3f45e9"
             },
             "require": {
                 "composer/installers": "^1.0"
