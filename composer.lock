@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7bfbabafea7b901e23ff7e3a739ff89d",
+    "content-hash": "c8a2ccaa1ddac9deb83766800ad0f4fd",
     "packages": [
         {
             "name": "composer/installers",
@@ -448,6 +448,25 @@
                 "type": "zip",
                 "url": "https://mainwp.neonbrand.com/satispress/nextend-smart-slider3-pro/3.5.0.9",
                 "shasum": "9b3feb958a5a3216da536f12b696fc394e3f45e9"
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Nextend",
+                "homepage": "https://smartslider3.com"
+            },
+            "description": "The perfect all-in-one responsive slider solution for WordPress.",
+            "homepage": "https://smartslider3.com/"
+        },
+        {
+            "name": "neonbrand/smart-slider-3",
+            "version": "3.5.0.9",
+            "dist": {
+                "type": "zip",
+                "url": "https://mainwp.neonbrand.com/satispress/smart-slider-3/3.5.0.9",
+                "shasum": "469065d7ebf4eff48a55c65f4505fbf709449a50"
             },
             "require": {
                 "composer/installers": "^1.0"
