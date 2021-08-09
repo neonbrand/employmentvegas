@@ -5,6 +5,6 @@ server:
 @development:
   ssh: root@localhost:/code/employmentvegas/web
 @staging:
-  ssh: forge@142.93.92.99:/home/forge/staging.employment.vegas/web
+  ssh: forge@143.198.72.14:/home/forge/employment.vegas/web
 @production:
   ssh: forge@192.241.203.205:/home/forge/employment.vegas/web
