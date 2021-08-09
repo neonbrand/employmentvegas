@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eeacc7aeff68d28b3ced0b8c1dab6856",
+    "content-hash": "1c8f05b7e3c277cb5e23f42b7e54b393",
     "packages": [
         {
             "name": "composer/installers",
@@ -509,11 +509,11 @@
         },
         {
             "name": "neonbrand/nextend-smart-slider3-pro",
-            "version": "3.5.0.9",
+            "version": "3.5.0.10",
             "dist": {
                 "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/nextend-smart-slider3-pro/3.5.0.9",
-                "shasum": "9b3feb958a5a3216da536f12b696fc394e3f45e9"
+                "url": "https://mainwp.neonbrand.com/satispress/nextend-smart-slider3-pro/3.5.0.10",
+                "shasum": "60fce1c3ae9ae8833b83060c077ddd01c62070bf"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -1879,15 +1879,15 @@
         },
         {
             "name": "wpackagist-plugin/smart-slider-3",
-            "version": "3.4.1.17",
+            "version": "3.5.0.10",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/smart-slider-3/",
-                "reference": "tags/3.4.1.17"
+                "reference": "tags/3.5.0.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/smart-slider-3.3.4.1.17.zip"
+                "url": "https://downloads.wordpress.org/plugin/smart-slider-3.3.5.0.10.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
