@@ -2,6 +2,8 @@ path: web/wp
 server:
   docroot: web
 
+@development:
+  ssh: root@localhost:/code/employmentvegas/web
 @staging:
   ssh: forge@142.93.92.99:/home/forge/staging.employment.vegas/web
 @production:

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c8a2ccaa1ddac9deb83766800ad0f4fd",
+    "content-hash": "eeacc7aeff68d28b3ced0b8c1dab6856",
     "packages": [
         {
             "name": "composer/installers",
@@ -252,12 +252,78 @@
             "time": "2020-05-29T15:13:26+00:00"
         },
         {
-            "name": "neonbrand/advanced-custom-fields-pro",
-            "version": "5.9.8",
+            "name": "graham-campbell/result-type",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GrahamCampbell/Result-Type.git",
+                "reference": "7e279d2cd5d7fbb156ce46daada972355cea27bb"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/advanced-custom-fields-pro/5.9.8",
-                "shasum": "24b77bdebae7ac97c6455ea90a636dd00449a99e"
+                "url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/7e279d2cd5d7fbb156ce46daada972355cea27bb",
+                "reference": "7e279d2cd5d7fbb156ce46daada972355cea27bb",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0|^8.0",
+                "phpoption/phpoption": "^1.7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.5|^7.5|^8.5|^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GrahamCampbell\\ResultType\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Graham Campbell",
+                    "email": "graham@alt-three.com"
+                }
+            ],
+            "description": "An Implementation Of The Result Type",
+            "keywords": [
+                "Graham Campbell",
+                "GrahamCampbell",
+                "Result Type",
+                "Result-Type",
+                "result"
+            ],
+            "support": {
+                "issues": "https://github.com/GrahamCampbell/Result-Type/issues",
+                "source": "https://github.com/GrahamCampbell/Result-Type/tree/v1.0.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/graham-campbell/result-type",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-04-13T13:17:36+00:00"
+        },
+        {
+            "name": "neonbrand/advanced-custom-fields-pro",
+            "version": "5.9.9",
+            "dist": {
+                "type": "zip",
+                "url": "https://mainwp.neonbrand.com/satispress/advanced-custom-fields-pro/5.9.9",
+                "shasum": "f5bc0365fdb18cdc270be6762c6e621b7fe2f34f"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -310,11 +376,11 @@
         },
         {
             "name": "neonbrand/gravityforms",
-            "version": "2.5.7",
+            "version": "2.5.8",
             "dist": {
                 "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/gravityforms/2.5.7",
-                "shasum": "5a4e62bdf0189720a05ce1bc160602ef99ab431e"
+                "url": "https://mainwp.neonbrand.com/satispress/gravityforms/2.5.8",
+                "shasum": "6452e800940041c5a9f648340d8e8c29a28c85bc"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -500,11 +566,11 @@
         },
         {
             "name": "neonbrand/wp-rocket",
-            "version": "3.9.0.5",
+            "version": "3.9.1.1",
             "dist": {
                 "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/wp-rocket/3.9.0.5",
-                "shasum": "dad6a94104958c96beac187098cb0304263d8c5c"
+                "url": "https://mainwp.neonbrand.com/satispress/wp-rocket/3.9.1.1",
+                "shasum": "dc5eef5b8f1fabe6205d06b4edabbc98243a5ed1"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -538,27 +604,34 @@
         },
         {
             "name": "oscarotero/env",
-            "version": "v1.2.0",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oscarotero/env.git",
-                "reference": "4ab45ce5c1f2c62549208426bfa20a3d5fa008c6"
+                "reference": "0da22cadc6924155fa9bbea2cdda2e84ab7cbdd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oscarotero/env/zipball/4ab45ce5c1f2c62549208426bfa20a3d5fa008c6",
-                "reference": "4ab45ce5c1f2c62549208426bfa20a3d5fa008c6",
+                "url": "https://api.github.com/repos/oscarotero/env/zipball/0da22cadc6924155fa9bbea2cdda2e84ab7cbdd3",
+                "reference": "0da22cadc6924155fa9bbea2cdda2e84ab7cbdd3",
                 "shasum": ""
             },
             "require": {
                 "ext-ctype": "*",
-                "php": ">=5.2"
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.16",
+                "phpunit/phpunit": "^7.0"
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "Env": "src/"
-                }
+                "psr-4": {
+                    "Env\\": "src/"
+                },
+                "files": [
+                    "src/env_function.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -580,9 +653,9 @@
             "support": {
                 "email": "oom@oscarotero.com",
                 "issues": "https://github.com/oscarotero/env/issues",
-                "source": "https://github.com/oscarotero/env/tree/v1.2.0"
+                "source": "https://github.com/oscarotero/env/tree/v2.1.0"
             },
-            "time": "2019-04-03T18:28:43+00:00"
+            "time": "2020-06-11T10:59:27+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -815,23 +888,23 @@
         },
         {
             "name": "roots/soil",
-            "version": "4.0.4",
+            "version": "4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/soil.git",
-                "reference": "6b3aab8ea41877136f53757ef85449f2484bfd83"
+                "reference": "6ca133aa67837375f2f114ad5cbf9ed30209471a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roots/soil/zipball/6b3aab8ea41877136f53757ef85449f2484bfd83",
-                "reference": "6b3aab8ea41877136f53757ef85449f2484bfd83",
+                "url": "https://api.github.com/repos/roots/soil/zipball/6ca133aa67837375f2f114ad5cbf9ed30209471a",
+                "reference": "6ca133aa67837375f2f114ad5cbf9ed30209471a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6.0"
             },
             "require-dev": {
-                "brain/monkey": "^2.4",
+                "brain/monkey": "^2.5",
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
                 "mockery/mockery": "^1.3 | ^1.4",
                 "phpcompatibility/php-compatibility": "^9.3",
@@ -876,7 +949,7 @@
             "support": {
                 "forum": "https://discourse.roots.io/",
                 "issues": "https://github.com/roots/soil/issues",
-                "source": "https://github.com/roots/soil/tree/4.0.4"
+                "source": "https://github.com/roots/soil/tree/4.0.5"
             },
             "funding": [
                 {
@@ -888,19 +961,19 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-09-11T00:46:10+00:00"
+            "time": "2021-07-27T17:22:59+00:00"
         },
         {
             "name": "roots/wordpress",
-            "version": "5.7.2",
+            "version": "5.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "5.7.2"
+                "reference": "5.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/refs/tags/5.7.2"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/refs/tags/5.8"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -943,7 +1016,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-05-12T23:52:01+00:00"
+            "time": "2021-07-20T16:24:55+00:00"
         },
         {
             "name": "roots/wordpress-core-installer",
@@ -1271,17 +1344,180 @@
             "time": "2021-02-19T12:13:01+00:00"
         },
         {
-            "name": "symfony/yaml",
-            "version": "v5.3.3",
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.23.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/yaml.git",
-                "reference": "485c83a2fb5893e2ff21bf4bfc7fdf48b4967229"
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "9174a3d80210dca8daa7f31fec659150bbeabfc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/485c83a2fb5893e2ff21bf4bfc7fdf48b4967229",
-                "reference": "485c83a2fb5893e2ff21bf4bfc7fdf48b4967229",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/9174a3d80210dca8daa7f31fec659150bbeabfc6",
+                "reference": "9174a3d80210dca8daa7f31fec659150bbeabfc6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.23-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.23.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-05-27T12:26:48+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php80",
+            "version": "v1.23.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php80.git",
+                "reference": "1100343ed1a92e3a38f9ae122fc0eb21602547be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/1100343ed1a92e3a38f9ae122fc0eb21602547be",
+                "reference": "1100343ed1a92e3a38f9ae122fc0eb21602547be",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.23-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php80\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ion Bazan",
+                    "email": "ion.bazan@gmail.com"
+                },
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.23.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-07-28T13:41:28+00:00"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "v5.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "4500fe63dc9c6ffc32d3b1cb0448c329f9c814b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/4500fe63dc9c6ffc32d3b1cb0448c329f9c814b7",
+                "reference": "4500fe63dc9c6ffc32d3b1cb0448c329f9c814b7",
                 "shasum": ""
             },
             "require": {
@@ -1327,7 +1563,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/yaml/tree/v5.3.3"
+                "source": "https://github.com/symfony/yaml/tree/v5.3.6"
             },
             "funding": [
                 {
@@ -1343,41 +1579,43 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-06-24T08:13:00+00:00"
+            "time": "2021-07-29T06:20:01+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v4.2.0",
+            "version": "v5.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "da64796370fc4eb03cc277088f6fede9fde88482"
+                "reference": "b3eac5c7ac896e52deab4a99068e3f4ab12d9e56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/da64796370fc4eb03cc277088f6fede9fde88482",
-                "reference": "da64796370fc4eb03cc277088f6fede9fde88482",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/b3eac5c7ac896e52deab4a99068e3f4ab12d9e56",
+                "reference": "b3eac5c7ac896e52deab4a99068e3f4ab12d9e56",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5.9 || ^7.0 || ^8.0",
-                "phpoption/phpoption": "^1.7.3",
-                "symfony/polyfill-ctype": "^1.17"
+                "ext-pcre": "*",
+                "graham-campbell/result-type": "^1.0.1",
+                "php": "^7.1.3 || ^8.0",
+                "phpoption/phpoption": "^1.7.4",
+                "symfony/polyfill-ctype": "^1.17",
+                "symfony/polyfill-mbstring": "^1.17",
+                "symfony/polyfill-php80": "^1.17"
             },
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.4.1",
                 "ext-filter": "*",
-                "ext-pcre": "*",
-                "phpunit/phpunit": "^4.8.36 || ^5.7.27 || ^6.5.14 || ^7.5.20"
+                "phpunit/phpunit": "^7.5.20 || ^8.5.14 || ^9.5.1"
             },
             "suggest": {
-                "ext-filter": "Required to use the boolean validator.",
-                "ext-pcre": "Required to use most of the library."
+                "ext-filter": "Required to use the boolean validator."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.1-dev"
+                    "dev-master": "5.3-dev"
                 }
             },
             "autoload": {
@@ -1409,7 +1647,7 @@
             ],
             "support": {
                 "issues": "https://github.com/vlucas/phpdotenv/issues",
-                "source": "https://github.com/vlucas/phpdotenv/tree/v4.2.0"
+                "source": "https://github.com/vlucas/phpdotenv/tree/v5.3.0"
             },
             "funding": [
                 {
@@ -1421,7 +1659,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-20T15:11:48+00:00"
+            "time": "2021-01-20T15:23:13+00:00"
         },
         {
             "name": "wpackagist-plugin/better-search-replace",
@@ -1479,15 +1717,15 @@
         },
         {
             "name": "wpackagist-plugin/genesis-blocks",
-            "version": "1.2.4",
+            "version": "1.2.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/genesis-blocks/",
-                "reference": "tags/1.2.4"
+                "reference": "tags/1.2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/genesis-blocks.1.2.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/genesis-blocks.1.2.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1755,12 +1993,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "736d41298189b79074e555d056bfe040b4970f47"
+                "reference": "52a126190a36bc9236846f5d42e10bff9ff60d72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/736d41298189b79074e555d056bfe040b4970f47",
-                "reference": "736d41298189b79074e555d056bfe040b4970f47",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/52a126190a36bc9236846f5d42e10bff9ff60d72",
+                "reference": "52a126190a36bc9236846f5d42e10bff9ff60d72",
                 "shasum": ""
             },
             "conflict": {
@@ -1883,6 +2121,7 @@
                 "lexik/jwt-authentication-bundle": "<2.10.7|>=2.11,<2.11.3",
                 "librenms/librenms": "<21.1",
                 "livewire/livewire": ">2.2.4,<2.2.6",
+                "localizationteam/l10nmgr": "<7.4|>=8,<8.7|>=9,<9.2",
                 "magento/community-edition": ">=2,<2.2.10|>=2.3,<2.3.3",
                 "magento/magento1ce": "<1.9.4.3",
                 "magento/magento1ee": ">=1,<1.14.4.3",
@@ -1900,6 +2139,7 @@
                 "neos/swiftmailer": ">=4.1,<4.1.99|>=5.4,<5.4.5",
                 "nette/application": ">=2,<2.0.19|>=2.1,<2.1.13|>=2.2,<2.2.10|>=2.3,<2.3.14|>=2.4,<2.4.16|>=3,<3.0.6",
                 "nette/nette": ">=2,<2.0.19|>=2.1,<2.1.13",
+                "nilsteampassnet/teampass": "<=2.1.27.36",
                 "nukeviet/nukeviet": "<4.3.4",
                 "nystudio107/craft-seomatic": "<3.3",
                 "nzo/url-encryptor-bundle": ">=4,<4.3.2|>=5,<5.0.1",
@@ -2035,9 +2275,9 @@
                 "tribalsystems/zenario": "<8.8.53370",
                 "truckersmp/phpwhois": "<=4.3.1",
                 "twig/twig": "<1.38|>=2,<2.7",
-                "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.32|>=8,<8.7.38|>=9,<9.5.25|>=10,<10.4.14|>=11,<11.1.1",
+                "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.32|>=8,<8.7.38|>=9,<9.5.28|>=10,<10.4.18|>=11,<11.3.1",
                 "typo3/cms-backend": ">=7,<=7.6.50|>=8,<=8.7.39|>=9,<=9.5.24|>=10,<=10.4.13|>=11,<=11.1",
-                "typo3/cms-core": ">=6.2,<=6.2.56|>=7,<=7.6.50|>=8,<=8.7.39|>=9,<9.5.25|>=10,<10.4.14|>=11,<11.1.1",
+                "typo3/cms-core": ">=6.2,<=6.2.56|>=7,<7.6.52|>=8,<8.7.41|>=9,<9.5.28|>=10,<10.4.18|>=11,<11.3.1",
                 "typo3/cms-form": ">=8,<=8.7.39|>=9,<=9.5.24|>=10,<=10.4.13|>=11,<=11.1",
                 "typo3/flow": ">=1,<1.0.4|>=1.1,<1.1.1|>=2,<2.0.1|>=2.3,<2.3.16|>=3,<3.0.12|>=3.1,<3.1.10|>=3.2,<3.2.13|>=3.3,<3.3.13|>=4,<4.0.6",
                 "typo3/neos": ">=1.1,<1.1.3|>=1.2,<1.2.13|>=2,<2.0.4|>=2.3,<2.3.99|>=3,<3.0.20|>=3.1,<3.1.18|>=3.2,<3.2.14|>=3.3,<3.3.23|>=4,<4.0.17|>=4.1,<4.1.16|>=4.2,<4.2.12|>=4.3,<4.3.3",
@@ -2124,7 +2364,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-07-19T22:02:46+00:00"
+            "time": "2021-07-26T22:02:34+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
