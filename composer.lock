@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1c8f05b7e3c277cb5e23f42b7e54b393",
+    "content-hash": "baaac8e749a27621ee31817064c8d5b8",
     "packages": [
         {
             "name": "composer/installers",
@@ -542,11 +542,11 @@
         },
         {
             "name": "neonbrand/wordpress-seo-premium",
-            "version": "15.9.2",
+            "version": "17.1.2",
             "dist": {
                 "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/wordpress-seo-premium/15.9.2",
-                "shasum": "cf5166d40c0477bcec9ceec07009f493b6ec6c26"
+                "url": "https://mainwp.neonbrand.com/satispress/wordpress-seo-premium/17.1.2",
+                "shasum": "5cbac391c5d4fc9e513fc35cbabd6c0c93f1b443"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -1889,6 +1889,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/smart-slider-3/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "17.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/17.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.17.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0 || ~2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
         },
         {
             "name": "wpackagist-plugin/wp-term-order",

@@ -75,7 +75,7 @@
         "neonbrand/ithemes-security-pro": "^6.8",
         "neonbrand/gravityforms": "^2.4",
         "neonbrand/cf-loader": "^1.0",
-        "neonbrand/wordpress-seo-premium": "^15.9",
+        "neonbrand/wordpress-seo-premium": "^17.1",
         "neonbrand/google-analytics-premium": "^7.15",
         "neonbrand/monsterinsights-forms": "^1.5",
         "neonbrand/monsterinsights-dimensions": "^1.3",
@@ -86,7 +86,8 @@
         "wpackagist-plugin/smart-slider-3": "^3.4",
         "neonbrand/nextend-smart-slider3-pro": "^3.5",
         "wpackagist-plugin/official-facebook-pixel": "^3.0",
-        "neonbrand/smart-slider-3": "3.5.0.9"
+        "neonbrand/smart-slider-3": "3.5.0.9",
+        "wpackagist-plugin/wordpress-seo": "^17.1"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.5.8",
