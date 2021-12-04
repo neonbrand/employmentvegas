@@ -70,7 +70,7 @@
         "wpackagist-plugin/yoast-test-helper": "^1.12",
         "roots/soil": "^4.0",
         "doctrine/inflector": "^2.0",
-        "neonbrand/gravityformsmailchimp": "^4.8",
+        "neonbrand/gravityformsmailchimp": "^5.0",
         "neonbrand/media-file-renamer-pro": "^5.1",
         "neonbrand/ithemes-security-pro": "^7.0",
         "neonbrand/gravityforms": "^2.4",

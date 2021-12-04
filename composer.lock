@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "06708f7c73faa4bf34e716fafe5ae402",
+    "content-hash": "04752e8d914a09d759a2b1236ab37a04",
     "packages": [
         {
             "name": "composer/installers",
@@ -388,11 +388,11 @@
         },
         {
             "name": "neonbrand/gravityformsmailchimp",
-            "version": "4.9",
+            "version": "5.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/gravityformsmailchimp/4.9",
-                "shasum": "260dd3c39be75b2c1a848fb1054281bf73c73da3"
+                "url": "https://mainwp.neonbrand.com/satispress/gravityformsmailchimp/5.0",
+                "shasum": "64659626a735bc1d549e3414b7cd0232b12b88a1"
             },
             "require": {
                 "composer/installers": "^1.0"
