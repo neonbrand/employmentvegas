@@ -86,7 +86,6 @@
         "wpackagist-plugin/smart-slider-3": "^3.4",
         "neonbrand/nextend-smart-slider3-pro": "^3.5",
         "wpackagist-plugin/official-facebook-pixel": "^3.0",
-        "neonbrand/smart-slider-3": "3.5.0.9",
         "wpackagist-plugin/wordpress-seo": "^17.7"
     },
     "require-dev": {
