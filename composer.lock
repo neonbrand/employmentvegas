@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "003647bbca915cb751ce812ea8585d95",
+    "content-hash": "d1f675aafe5bacf3e56ef570e1dc8bd6",
     "packages": [
         {
             "name": "composer/installers",
@@ -542,11 +542,11 @@
         },
         {
             "name": "neonbrand/wordpress-seo-premium",
-            "version": "17.1.2",
+            "version": "17.7",
             "dist": {
                 "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/wordpress-seo-premium/17.1.2",
-                "shasum": "5cbac391c5d4fc9e513fc35cbabd6c0c93f1b443"
+                "url": "https://mainwp.neonbrand.com/satispress/wordpress-seo-premium/17.7",
+                "shasum": "10e93b2727d425965df543f8e29c70ee9a841b1f"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -580,11 +580,11 @@
         },
         {
             "name": "neonbrand/wpseo-local",
-            "version": "13.9",
+            "version": "14.2",
             "dist": {
                 "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/wpseo-local/13.9",
-                "shasum": "0ddce401739b5ebc15081f82bfd0237d1dc53289"
+                "url": "https://mainwp.neonbrand.com/satispress/wpseo-local/14.2",
+                "shasum": "afac0b1660edcdb47b7e43f74929271fd16b5cd8"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -592,10 +592,10 @@
             "type": "wordpress-plugin",
             "authors": {
                 "name": "Team Yoast and Arjan Snaterse",
-                "homepage": "https://yoast.com"
+                "homepage": "http://yoa.st/1uk"
             },
             "description": "This Local SEO module adds all the needed functionality to get your site ready for Local Search Optimization",
-            "homepage": "https://yoast.com/wordpress/local-seo/"
+            "homepage": "http://yoa.st/4fj"
         },
         {
             "name": "oscarotero/env",
@@ -1895,18 +1895,18 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "17.1",
+            "version": "17.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/17.1"
+                "reference": "tags/17.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.17.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.17.7.1.zip"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
