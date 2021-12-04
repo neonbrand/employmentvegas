@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d1f675aafe5bacf3e56ef570e1dc8bd6",
+    "content-hash": "50a4ebfb8a0894bb61c843196c623588",
     "packages": [
         {
             "name": "composer/installers",
@@ -352,11 +352,11 @@
         },
         {
             "name": "neonbrand/google-analytics-premium",
-            "version": "7.18.0",
+            "version": "8.2.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/google-analytics-premium/7.18.0",
-                "shasum": "1aac3a20fd6919b49108ce7a474fef421ae7240b"
+                "url": "https://mainwp.neonbrand.com/satispress/google-analytics-premium/8.2.0",
+                "shasum": "f29c36a34e18f8b1fce54adff623fcbbb1a44fd2"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -466,11 +466,11 @@
         },
         {
             "name": "neonbrand/monsterinsights-forms",
-            "version": "1.5.3",
+            "version": "2.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/monsterinsights-forms/1.5.3",
-                "shasum": "e21e759a9a2f15c260091a49ca1d68c33c4a7167"
+                "url": "https://mainwp.neonbrand.com/satispress/monsterinsights-forms/2.1.0",
+                "shasum": "dbbefa1d77cb7f7f26f397bb19ee2d655dc956c5"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -485,11 +485,11 @@
         },
         {
             "name": "neonbrand/monsterinsights-page-insights",
-            "version": "1.3.3",
+            "version": "1.4.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/monsterinsights-page-insights/1.3.3",
-                "shasum": "a3cd57f74c0bb17d51caea778ba5e2b186449684"
+                "url": "https://mainwp.neonbrand.com/satispress/monsterinsights-page-insights/1.4.0",
+                "shasum": "c034a829caccefacdbf64548614d5706ed0f1bf2"
             },
             "require": {
                 "composer/installers": "^1.0"
