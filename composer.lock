@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "50a4ebfb8a0894bb61c843196c623588",
+    "content-hash": "68052a2a9ed4d4a5be839c4ee8a332eb",
     "packages": [
         {
             "name": "composer/installers",
@@ -409,11 +409,11 @@
         },
         {
             "name": "neonbrand/ithemes-security-pro",
-            "version": "6.8.5",
+            "version": "7.0.3",
             "dist": {
                 "type": "zip",
-                "url": "https://mainwp.neonbrand.com/satispress/ithemes-security-pro/6.8.5",
-                "shasum": "8ea0312c42082a0917999ef006c5b5f894896233"
+                "url": "https://mainwp.neonbrand.com/satispress/ithemes-security-pro/7.0.3",
+                "shasum": "fc518816b7ee6b1c485b5bcbb3a9310600b0b149"
             },
             "require": {
                 "composer/installers": "^1.0"
